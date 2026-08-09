@@ -6,7 +6,7 @@ The project was created as a portfolio project to demonstrate front-end developm
 
 ## Live Demo
 
-Coming soon.
+[Visit the live website] (https://dantez21.github.io/home-fashion-ecommerce/)
 
 ## Screenshots
 
