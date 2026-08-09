@@ -8,6 +8,34 @@ The project was created as a portfolio project to demonstrate front-end developm
 
 Coming soon.
 
+## Screenshots
+
+### Home Page
+
+![Home Page](images/home-page-1.png)
+![Home Page](images/home-page-2.png)
+![Home Page](images/home-page-3.png)
+
+### Footer Section
+
+![Footer Section](images/footer.png)
+
+### About Page
+
+![About Page](images/about-page.png)
+
+### Shop Page
+
+![Shop Page](images/shop-page.png)
+
+### Shopping Cart
+
+![Shopping Cart](images/cart-page.png)
+
+### Contact Page
+
+![Contact Page](images/contact-page.png)
+
 ## Features
 
 - Responsive homepage
