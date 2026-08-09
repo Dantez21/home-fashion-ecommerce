@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Home Fashion - Contemporary furniture and home décor for modern living."
+    >
+
+    <title>Home Fashion | Modern Living</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a
+            href="index.html"
+            class="logo"
+        >
+            HOME<span>FASHION</span>
+        </a>
+
+
+        <nav class="nav">
+
+            <a
+                href="index.html"
+                class="active"
+            >
+                Home
+            </a>
+
+            <a href="shop.html">
+                Shop
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <button
+                type="button"
+                class="search-btn"
+                aria-label="Search"
+            >
+                ⌕
+            </button>
+
+
+            <a
+                href="cart.html"
+                class="cart"
+                aria-label="Shopping cart"
+            >
+                🛒
+
+                <span id="cart-count">
+                    0
+                </span>
+
+            </a>
+
+
+            <button
+                type="button"
+                class="menu-btn"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="search-box">
+
+        <input
+            type="search"
+            placeholder="Search products..."
+            aria-label="Search products"
+        >
+
+    </div>
+
+</header>
+
+
+
+<main>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    CURATED FOR MODERN LIVING
+                </p>
+
+                <h1>
+                    Make Your Space
+                    <br>
+                    Feel Like Home.
+                </h1>
+
+                <p>
+                    Thoughtfully designed furniture
+                    and décor for beautiful,
+                    comfortable spaces.
+                </p>
+
+                <a
+                    href="shop.html"
+                    class="btn btn-dark"
+                >
+                    SHOP COLLECTION
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FEATURED PRODUCTS -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    OUR COLLECTION
+                </p>
+
+                <h2>
+                    Featured Pieces
+                </h2>
+
+                <p>
+                    Carefully selected pieces
+                    designed for modern living.
+                </p>
+
+            </div>
+
+
+            <div
+                class="product-grid"
+                id="featured-products"
+            >
+            </div>
+
+
+            <div class="center-button">
+
+                <a
+                    href="shop.html"
+                    class="btn btn-dark"
+                >
+                    VIEW ALL PRODUCTS
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+     <!-- PROMOTIONAL BANNER -->
+    <section class="promo">
+
+        <div class="container promo-content">
+
+            <div>
+
+                <p class="eyebrow">LIMITED TIME OFFER</p>
+
+                <h2>
+                    Refresh Your Home.<br>
+                    Save Up To 30%.
+                </h2>
+
+                <p>
+                    Discover selected pieces at exceptional prices.
+                </p>
+
+                <a href="shop.html" class="btn btn-light">
+                    Shop Sale
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY CHOOSE US -->
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">WHY HOME FASHION</p>
+
+                <h2>Designed For Your Lifestyle</h2>
+
+            </div>
+
+
+            <div class="features">
+
+                <div class="feature">
+
+                    <div class="feature-icon">✦</div>
+
+                    <h3>Quality Products</h3>
+
+                    <p>
+                        Carefully selected products designed
+                        for comfort and durability.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <div class="feature-icon">◇</div>
+
+                    <h3>Beautiful Design</h3>
+
+                    <p>
+                        Modern designs that bring personality
+                        and style into your home.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <div class="feature-icon">✓</div>
+
+                    <h3>Trusted Service</h3>
+
+                    <p>
+                        Friendly service and reliable delivery
+                        from order to your doorstep.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <div class="feature-icon">♡</div>
+
+                    <h3>Made For You</h3>
+
+                    <p>
+                        Collections created to help you
+                        build a space you love.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+
+        <div class="container newsletter-content">
+
+            <div>
+
+                <p class="eyebrow">STAY INSPIRED</p>
+
+                <h2>Get Home Inspiration</h2>
+
+                <p>
+                    Subscribe for new collections, design ideas
+                    and exclusive offers.
+                </p>
+
+            </div>
+
+
+            <form onsubmit="subscribe(event)">
+
+                <input
+                    type="email"
+                    placeholder="Your email address"
+                    required
+                >
+
+                <button class="btn btn-dark">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- BRAND MESSAGE -->
+
+    <!-- <section class="section section-light">
+
+        <div class="container">
+
+            <div class="split-content">
+
+                <div>
+
+                    <p class="eyebrow">
+                        THE HOME FASHION DIFFERENCE
+                    </p>
+
+                    <h2>
+                        Designed for the
+                        way you live.
+                    </h2>
+
+                </div>
+
+
+                <div>
+
+                    <p>
+                        We believe your home should
+                        reflect your personality,
+                        comfort and sense of style.
+                    </p>
+
+                    <p>
+                        Our collection combines
+                        timeless design with
+                        contemporary living.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+</main>
+
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <a href="index.html" class="logo footer-logo">
+                HOME<span>FASHION</span>
+            </a>
+
+            <p>
+                Beautiful furniture and home essentials
+                for modern living.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h4>Shop</h4>
+
+            <a href="shop.html">Furniture</a>
+            <a href="shop.html">Bedroom</a>
+            <a href="shop.html">Décor</a>
+
+        </div>
+
+        <div>
+
+            <h4>Company</h4>
+
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+        <div>
+
+            <h4>Contact</h4>
+
+            <p>Nairobi, Kenya</p>
+            <p>+254 700 000 000</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        © 2026 Home Fashion. All rights reserved.
+    </div>
+
+</footer>
+
+
+
+
+<!-- IMPORTANT: PRODUCTS FIRST -->
+
+<script src="js/products.js"></script>
+
+<!-- MAIN JS SECOND -->
+
+<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
